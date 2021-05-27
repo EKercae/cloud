@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/cloud/cloud-api-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/cloud-api-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/cloud-config-center-3344/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/cloud-config-center-3344/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/cloud-consumer-feign-hystrix-order80/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/cloud-consumer-feign-hystrix-order80/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/cloud-consumer-feign-order80/src/main/java" charset="UTF-8" />
