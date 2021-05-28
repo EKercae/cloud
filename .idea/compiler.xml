@@ -19,9 +19,11 @@
         <module name="cloud-consumerzk-order80" />
         <module name="cloud-consumer-hystrix-dashboard9001" />
         <module name="cloud-config-center-3344" />
+        <module name="cloud-config-center-3355" />
         <module name="cloud-gateway-gateway9527" />
         <module name="cloud-consumer-order80" />
         <module name="cloud-provider-hystrix-payment8001" />
+        <module name="cloud-config-client-3366" />
         <module name="cloud-consumer-feign-order80" />
       </profile>
     </annotationProcessing>
@@ -29,6 +31,8 @@
       <module name="cloud" target="1.8" />
       <module name="cloud-api-common" target="1.8" />
       <module name="cloud-config-center-3344" target="1.8" />
+      <module name="cloud-config-center-3355" target="1.8" />
+      <module name="cloud-config-client-3366" target="1.8" />
       <module name="cloud-consumer-feign-hystrix-order80" target="1.8" />
       <module name="cloud-consumer-feign-order80" target="1.8" />
       <module name="cloud-consumer-hystrix-dashboard9001" target="1.8" />
@@ -43,6 +47,7 @@
       <module name="cloud-provider-payment8002" target="1.8" />
       <module name="cloud-provider-payment8004" target="1.8" />
       <module name="cloud-providerconsul-payment8006" target="1.8" />
+      <module name="untitled" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
