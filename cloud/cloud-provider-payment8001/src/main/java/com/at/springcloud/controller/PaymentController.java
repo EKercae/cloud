@@ -21,7 +21,6 @@ import java.util.concurrent.TimeUnit;
 @RestController
 @Slf4j
 public class PaymentController {
-
     @Autowired
     private PaymentService paymentService;
 
@@ -84,5 +83,10 @@ public class PaymentController {
     public String paymentFeignTimeOut(){
         try { TimeUnit.SECONDS.sleep(3); } catch (InterruptedException e) { e.printStackTrace(); }
         return servicePort;
+    }
+
+    @GetMapping("/payment/zipkin")
+    public String paymentZipkin(){
+        return "paymentZipkin-------------------hello";
     }
 }
